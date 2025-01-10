@@ -1,5 +1,5 @@
 # peacock-docker-compose
-my compose file for the peacock server
+my compose file for peacock server
 
 
 
