@@ -5,8 +5,8 @@ services:
     container_name: peacock
     hostname: peacock
     volumes:
-      - /data/peacock-server/contracts:/Peacock/contractSessions
-      - /data/peacock-server/data:/Peacock/userdata
+      - /path/to/contracts:/Peacock/contractSessions
+      - /path/to/data:/Peacock/userdata
     network_mode: bridge
     ports:
       - 80:80
