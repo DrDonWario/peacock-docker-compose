@@ -1,2 +1,8 @@
 # peacock-docker-compose
-my compose file for github.com/thepeacockproject/Peacock
+my compose file for the peacock server
+
+
+
+
+The Peacock Project: https://github.com/thepeacockproject/Peacock
+Docker Hub: https://hub.docker.com/r/gunslap/peacockserver
