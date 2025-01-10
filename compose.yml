@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  peacockserver:
+    image: gunslap/peacockserver:latest
+    container_name: peacock
+    hostname: peacock
+    volumes:
+      - /data/peacock-server/contracts:/Peacock/contractSessions
+      - /data/peacock-server/data:/Peacock/userdata
+    network_mode: bridge
+    ports:
+      - 80:80
+    restart: no
+    runtime: runc
